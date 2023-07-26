@@ -1,4 +1,4 @@
-import request from '@/utils/request'
+import request from '@/request/admin-request'
 
 export function add(data) {
   return request({

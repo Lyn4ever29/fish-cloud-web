@@ -17,6 +17,8 @@ function CRUD(options) {
     idField: 'id',
     // 标题
     title: '',
+    // 网关地址,默认为空
+    gateUrl: '',
     // 请求数据的url
     url: '',
     // 表格数据
@@ -131,7 +133,7 @@ function CRUD(options) {
       return new Promise((resolve, reject) => {
         crud.loading = true
         // 请求数据
-        initData(crud.url, crud.getQueryParams()).then(data => {
+        initData(crud.gateUrl + crud.url, crud.getQueryParams()).then(data => {
           const table = crud.getTable()
           if (table && table.lazy) { // 懒加载子节点数据，清掉已加载的数据
             table.store.states.treeData = {}

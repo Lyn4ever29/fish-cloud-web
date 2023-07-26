@@ -1,4 +1,4 @@
-import request from '@/utils/request'
+import request from '@/request/mnt-request'
 
 export function add(data) {
   return request({

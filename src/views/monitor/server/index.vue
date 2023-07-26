@@ -231,7 +231,7 @@ export default {
   },
   methods: {
     init() {
-      initData(this.url, {}).then(data => {
+      initData('admin/' + this.url, {}).then(data => {
         this.data = data
         this.show = true
         if (this.cpuInfo.xAxis.data.length >= 8) {

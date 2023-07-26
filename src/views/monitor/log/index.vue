@@ -60,7 +60,7 @@ export default {
   name: 'Log',
   components: { Search, crudOperation, pagination },
   cruds() {
-    return CRUD({ title: '日志', url: 'api/logs' })
+    return CRUD({ title: '日志', url: 'api/logs', gateUrl: 'log/' })
   },
   mixins: [presenter()],
   created() {
