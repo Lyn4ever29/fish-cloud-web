@@ -1,8 +1,8 @@
 {
-  "name": "eladmin-web",
-  "version": "2.7.0",
-  "description": "ELADMIN 前端源码",
-  "author": "Zheng Jie",
+  "name": "fish-cloud-web",
+  "version": "1.0.0",
+  "description": "Fish-Cloud 前端源码",
+  "author": "Lyn4ever29",
   "license": "Apache-2.0",
   "scripts": {
     "dev": "vue-cli-service serve",
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/elunez/eladmin-web.git"
+    "url": "https://github.com/Lyn4ever29/fish-cloud-web.git"
   },
   "bugs": {
-    "url": "https://github.com/elunez/eladmin/issues"
+    "url": "https://github.com/Lyn4ever29/fish-cloud-web/issues"
   },
   "dependencies": {
     "@riophae/vue-treeselect": "^0.4.0",
